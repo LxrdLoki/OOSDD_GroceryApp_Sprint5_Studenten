@@ -48,7 +48,7 @@
                             </Label.Triggers>
                         </Label>
                         <Label Grid.Column="2" Text="{Binding ShelfLife}" HorizontalOptions="End"/>
-                        <Label Grid.Column="3" Text="{Binding Price, StringFormat='{1:F0}{0:F0} $w'}" HorizontalOptions="End">
+                        <Label Grid.Column="3" Text="{Binding Price, StringFormat='{1:F0}{0:F0}'}" HorizontalOptions="End">
                             <Label.Triggers>
                                 <DataTrigger TargetType="Label" Binding="{Binding Price}" Value="0">
                                     <Setter Property="Text" Value="Geen prijs nog beschikbaar" />
