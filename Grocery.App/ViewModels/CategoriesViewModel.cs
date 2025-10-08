@@ -16,6 +16,7 @@ namespace Grocery.App.ViewModels
         {
             _categoryService = categoryService;
             Title = "Categories";
+            
         }
 
     }
